@@ -5,13 +5,19 @@ description = ""
 authors = ["TzuHwan Seet <tzuhwan_seet@brown.edu>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.11"
 pandas = "^1.4.1"
 numpy = "^1.22.3"
 sklearn = "^0.0"
 matplotlib = "^3.5.1"
 spacy = "^3.2.3"
 ipykernel = "^6.9.2"
+transformers = "^4.18.0"
+tensorflow = "^2.8.0"
+tqdm = "^4.64.0"
+seaborn = "^0.11.2"
+contextualSpellCheck = "^0.4.1"
+scipy = "^1.8.0"
 
 [tool.poetry.dev-dependencies]
 
