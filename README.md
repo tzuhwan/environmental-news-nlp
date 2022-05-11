@@ -1,1 +1,3 @@
 # environmental-news-nlp
+
+This is a project for EEPS1960D by TzuHwan Seet. This project applies natural language processing(NLP) techniques on a data set of environmental news snippets to achieve two objectives. First, it leverages a pre-trained Bidirectional Encoder Representations from Transformers (BERT) to tag and analyze the emotional sentiment of the environmental news coverage of different broadcasting stations and their changes over time. Secondly, it uses three different machine learning models to predict the broadcasting station from which a news snippet originates : Naive Bayes, Support Vector Machine, and neural network models. 
